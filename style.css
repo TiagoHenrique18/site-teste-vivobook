@@ -10,7 +10,7 @@ body{
 }
 
 body header{
-    background-color: rgb(7, 86, 135);
+    background-color: rgb(10, 161, 255);
 }
 
 header .logo{
@@ -33,7 +33,7 @@ header p {
 
 nav{
     padding-left: 30px;
-    background-color: rgb(7, 86, 135);
+    background-color: rgb(23, 103, 152);
     margin-bottom: 10px;
 }
 
@@ -50,7 +50,7 @@ nav a:hover{
 
 section p{
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-size: 1em;
     max-width: 1200px;
     width: 100%;
@@ -71,6 +71,17 @@ footer{
 
 footer p{
     color: white;
-    text-align: center;
-    font-weight: bold;
+    text-align: left;
+    margin-left: 9px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: black;
 }
