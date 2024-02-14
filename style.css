@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: white;
+}
+
+body header{
+    background-color: rgb(7, 86, 135);
+}
+
+header h1{ 
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+nav{
+    padding-left: 30px;
+    background-color: rgb(7, 86, 135);
+    margin-bottom: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+    
+    
+}
+
+nav a:hover{
+    background-color: rgb(92, 163, 239);
+    border-radius: 10px;
+}
+
+section p{
+    text-align: justify;
+    text-indent: 30px;
+    margin: 15px 0px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+section img{
+    max-width: 280px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    background-color: rgb(7, 86, 135);
+
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
