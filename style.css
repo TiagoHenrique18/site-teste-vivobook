@@ -46,8 +46,9 @@ nav a{
 }
 
 nav a:hover{
-    background-color: rgb(92, 163, 239);
-    border-radius: 10px;
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
 }
 
 section p{
@@ -76,11 +77,14 @@ footer p{
     color: white;
     text-align: left;
     margin-left: 9px;
+    text-align: justify;
 }
 
 footer a{
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    text-align: center;
 
 }
 
